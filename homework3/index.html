@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sequence Logo Visualization</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sequence Logo Visualization</h1>
+        <nav>
+            <ul>
+                <li><a href="#">首頁</a></li>
+                <li><a href="#">關於我們</a></li>
+                <li><a href="#">聯絡資訊</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form>
+        <label style="font-size:30px;">Input your Sequence :</label>
+        <div class="slidecontainer">  
+            <div class="w3-container w3-cell">
+                <textarea id="mset" cols="40" rows="10"style="background-color:rgb(231, 229, 229);border-width:3px;border-style:dotted;font-size:15px;width: 1000px;height: 400px"></textarea>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <button onclick="exportCanvasAsPNG('bio','1091346生物資訊概論作業3')">Downloads</button>
+        <br>
+        <div class="slidecontainer">
+            <div class="w3-container w3-cell">
+                <canvas id="bio" width="900" height="200" class="w3-animate-zoom"></canvas>
+            </div>
+        </div>        
+        <canvas id="letter" width="370" height="410" style="display: none;"></canvas>
+    </form>
+    <script src="script.js"></script>
+    <script src="//unpkg.com/jquery"></script>
+</body>
+</html>
