@@ -34,32 +34,32 @@ var st="";
     //}
 //
 //}
-var st = 'AAATTTCCCGGB,' +
-         'TTTAAACCCGGD,' +
-         'GGGTTTAAACCS,' +
-         'TACGTACGBACG,' +
-         'ATCGATCGATCG,' +
-         'AAAAAAGGGGGG,' +
-         'TTTTTTAAAAAA,' +
-         'TACGATCGATCG,' +
-         'GTACTAGCTAGC,' +
-         'CTAGCTAGCTAG,' +
-         'TCGATCGATCGA,' +
-         'GATCGATCGATC,' +
-         'CATGCTAGCTAG,' +
-         'AKJSHCUWUAKC,' +
-         'AGGTGGCTAGGB,' +
-         'GGGTGGCAAAAN,' +
-         'CGGTGGCGAAAF,' +
-         'CGGTGGCAAAAB,' +
-         'GGATGGCGACAF,' +
-         'GTACTAGCTAGC,' +
-         'CTAGCTAGCTAG,' +
-         'TCGATCGATCGA,' +
-         'GATCGATCGATC,' +
-         'CATGCTAGCTAG,' +
-         'AKJSHCUWUAKC,' +
-         'GGGTGGCAAAAD';
+var st = 'GGGTGGCAAAC,' +
+		'CGGTGGCAAAG,' +
+		'GAGTGGCAAAA,' +
+		'CAGTGGCAAAT,' +
+		'GAGTAGCAAAC,' +
+		'CGGCGGCAAAA,' +
+		'AGGTGGCAAAA,' +
+		'AGGTGGCGAAA,' +
+		'TGGTGGCAAAA,' +
+		'CGGTGGCAAAA,' +
+		'TGGTGGCAAAT,' +
+		'AGGTGGCAAAA,' +
+		'GAGTGGCAATA,' +
+		'CGGTGGCAAAA,' +
+		'AGGTGGCTAGG,' +
+		'GGGTGGCAAAA,' +
+		'CGGTGGCGAAA,' +
+		'CGGTGGCAAAA,' +
+		'GGATGGCGACA,' +
+		'TGATGGCAAAA,' +
+		'AAGTGGCCTAC,' +
+		'TAGTGGAAAAT,' +
+		'TGGTGGCGAAA,' +
+		'AAGTGGCGTCT,' +
+		'GGGTGGCAAAC,' +
+		'GGGTGGCAAAA';
   
   document.getElementById("mset").innerHTML = st.replace(/,/g, '\n');
   //Input text
